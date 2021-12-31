@@ -17,7 +17,7 @@ package fake
 import (
 	"context"
 
-	"github.com/kubernetes-incubator/metrics-server/pkg/sources"
+	"github.com/kubernetes-sigs/metrics-server/pkg/sources"
 )
 
 // StaticSourceProvider is a fake sources.MetricSourceProvider that returns

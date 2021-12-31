@@ -24,7 +24,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 
-	utilmetrics "github.com/kubernetes-incubator/metrics-server/pkg/metrics"
+	utilmetrics "github.com/kubernetes-sigs/metrics-server/pkg/metrics"
 )
 
 const (
