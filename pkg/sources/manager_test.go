@@ -24,8 +24,8 @@ import (
 	. "github.com/onsi/gomega"
 	"k8s.io/apimachinery/pkg/api/resource"
 
-	. "github.com/kubernetes-incubator/metrics-server/pkg/sources"
-	fakesrc "github.com/kubernetes-incubator/metrics-server/pkg/sources/fake"
+	. "github.com/kubernetes-sigs/metrics-server/pkg/sources"
+	fakesrc "github.com/kubernetes-sigs/metrics-server/pkg/sources/fake"
 )
 
 func TestSourceManager(t *testing.T) {

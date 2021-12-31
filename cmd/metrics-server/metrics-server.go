@@ -22,7 +22,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apiserver/pkg/util/logs"
 
-	"github.com/kubernetes-incubator/metrics-server/cmd/metrics-server/app"
+	"github.com/kubernetes-sigs/metrics-server/cmd/metrics-server/app"
 )
 
 func main() {

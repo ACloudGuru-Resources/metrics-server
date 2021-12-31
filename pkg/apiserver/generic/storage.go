@@ -26,9 +26,9 @@ import (
 	"k8s.io/metrics/pkg/apis/metrics/install"
 	"k8s.io/metrics/pkg/apis/metrics/v1beta1"
 
-	"github.com/kubernetes-incubator/metrics-server/pkg/provider"
-	nodemetricsstorage "github.com/kubernetes-incubator/metrics-server/pkg/storage/nodemetrics"
-	podmetricsstorage "github.com/kubernetes-incubator/metrics-server/pkg/storage/podmetrics"
+	"github.com/kubernetes-sigs/metrics-server/pkg/provider"
+	nodemetricsstorage "github.com/kubernetes-sigs/metrics-server/pkg/storage/nodemetrics"
+	podmetricsstorage "github.com/kubernetes-sigs/metrics-server/pkg/storage/podmetrics"
 )
 
 var (

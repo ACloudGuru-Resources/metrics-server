@@ -22,7 +22,7 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/prometheus/client_golang/prometheus"
 
-	. "github.com/kubernetes-incubator/metrics-server/pkg/metrics"
+	. "github.com/kubernetes-sigs/metrics-server/pkg/metrics"
 )
 
 func TestMetricsUtil(t *testing.T) {

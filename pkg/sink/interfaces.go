@@ -15,7 +15,7 @@
 package sink
 
 import (
-	"github.com/kubernetes-incubator/metrics-server/pkg/sources"
+	"github.com/kubernetes-sigs/metrics-server/pkg/sources"
 )
 
 // MetricSink knows how to receive metrics batches from a source.

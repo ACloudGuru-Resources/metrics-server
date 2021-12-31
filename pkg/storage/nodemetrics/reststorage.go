@@ -21,7 +21,7 @@ import (
 
 	"github.com/golang/glog"
 
-	"github.com/kubernetes-incubator/metrics-server/pkg/provider"
+	"github.com/kubernetes-sigs/metrics-server/pkg/provider"
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	metainternalversion "k8s.io/apimachinery/pkg/apis/meta/internalversion"

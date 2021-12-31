@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/kubernetes-incubator/metrics-server/pkg/sources"
+	"github.com/kubernetes-sigs/metrics-server/pkg/sources"
 	"github.com/prometheus/client_golang/prometheus"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
